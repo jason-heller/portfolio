@@ -1,0 +1,9 @@
+
+.header {
+    width:100%;
+    height:300px;
+    text-align:center;
+    color:black;
+    background-image: linear-gradient(to right, #DFF1DF, #11A00C);
+    position:static;   
+ }
