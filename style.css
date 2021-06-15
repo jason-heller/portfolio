@@ -2,10 +2,22 @@
 .banner {
     width:fill;
     padding-top:50px;
-    padding-bottom:50px;
+    padding-bottom:5px;
     padding-left: 50px;
+    color: white;
     background-color: black;
-    opacity: 80%;
+    background-color:rgba(0, 0, 0, 0.8);
+ }
+
+ .content {
+    width:fill;
+    height:fill;
+    padding: 10px;
+    color: white;
+    background-color: black;
+    background-color:rgba(0, 0, 0, 0.8);
+    flex-grow: 1;
+    font-family: Arial, Helvetica, sans-serif
  }
 
  #title {
@@ -27,7 +39,7 @@
     font-size: 24px;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
-    opacity: 80%;
+    background-color:rgba(0, 0, 0, 0.8);
 }
 
 .links ul {
@@ -37,26 +49,22 @@
     overflow: hidden;
 }
 
-.links li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 16px;
-    text-decoration: none;
-}
-
 .links li {
-    float: left;
-}
-
-.links li a:hover {
-    opacity: 100%;
+    float: right;
 }
 
 body {
     background-image: url("moonglade1.png");
     background-attachment: fixed;
-    background-repeat: repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+html, body {
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
 }
 
 span {
@@ -67,6 +75,10 @@ span {
 
 a {
     text-decoration: none;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 8px;
 }
 
   /* unvisited link */
@@ -86,5 +98,5 @@ a:hover {
 
 /* selected link */
 a:active {
-    color: blue;
+    color: rgb(255, 255, 255);
 }
