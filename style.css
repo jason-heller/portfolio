@@ -42,6 +42,11 @@
     background-color:rgba(0, 0, 0, 0.8);
 }
 
+.links a {
+    display: block;
+    padding: 8px;
+}
+
 .links ul {
     list-style-type: none;
     margin: 0;
@@ -73,12 +78,13 @@ span {
     line-height: normal;
 }
 
+p {
+    line-height: 1.75 ;
+}
+
 a {
     text-decoration: none;
-    display: block;
     color: white;
-    text-align: center;
-    padding: 8px;
 }
 
   /* unvisited link */
